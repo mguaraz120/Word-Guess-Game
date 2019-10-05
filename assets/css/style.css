@@ -1,0 +1,35 @@
+body{
+
+text-align: center;
+background-image: url("../images/flagsofworld2.jpg");
+mask-image: image(1);
+opacity: 1;
+
+}
+.main{
+    
+    margin-top: 400px;
+    background-color: aliceblue;
+    height: 400px;
+
+}
+.main h1{
+    background-color: aliceblue;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#display{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+    font-size: 30px;
+    color: blue;
+    height: 30px;
+}
+#result{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-size: 40px;
+    background-color: aliceblue;
+}
+#user-choice{
+    font-size: 20px;
+}
