@@ -5,13 +5,15 @@ var resultDiv = document.getElementById("result");
 var countryDiv = document.getElementById("country");
 
 var countries = ["Argentina", "Brazil", "Peru", "China", "USA", "Canada", "Vietnam", 
-    "Japan", "Spain", "Russia", "Germany", "Colombia", "Mexico", "Ethiopia", "Egypt" ];
+    "Japan", "Spain", "Russia", "Germany", "Colombia", "Mexico", "Ethiopia", "Egypt","India",
+    "Philippines", "Italy", "Singapur" ];
 var randomIndex = Math.floor(Math.random()*countries.length);
 var country = countries[randomIndex];
 var display = [country.length];
 var letters = country.split('');
 var attempts = letters.length + 2;
 var output = "";
+
 document.onkeyup = function(event)
 {   
     var userChoice = event.key;
